@@ -1,12 +1,6 @@
-import os
-import platform
-print("JOIN FB GROUP")
-os.system("xdg-open https://facebook.com/groups/460389902592352/")
-os.system("git pull")
-b = platform.architecture()[0]
-if b == '64bit':
-    os.system("chmod 777 AS1F6464")
-    os.system("./AS1F")
-elif b == '32bit':
-    os.system("chmod 777 r")
-    os.system("./r")
+import os,platform
+print (' FOLLOW MY FB iD')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100074766201169')
+
+import AS1F
+import AS1F6464
