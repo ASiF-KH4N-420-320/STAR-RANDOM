@@ -1,6 +1,13 @@
-import os,platform
-print ('\033[1;97;40m FOLLOW MY FB iD')
-os.system('xdg-open https://www.facebook.com/profile.php?id=100074766201169')
 
-import rndm32
-import rndm64
+import os,time
+os.system('clear')
+os.system('xdg-open https://facebook.com/groups/351076900316263/')
+from platform import uname
+arch=uname().machine.lower()
+if 'aarch' in arch:
+    print(' \n\033[1;37m Congratulations! Your Device Support This Tools');time.sleep(2)
+    import rndm32
+else:
+    print(' \033[1;31m Sorry system or device not support this tools');exit()
+  import rndm64
+ 
